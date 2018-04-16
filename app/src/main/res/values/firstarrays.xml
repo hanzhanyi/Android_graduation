@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data1">
+        <item>简介</item>
+        <item>为害症状</item>
+        <item>发生因素</item>
+        <item>形态特征</item>
+        <item>生活习性</item>
+        <item>防治方法</item>
+        <item>病原物</item>
+        <item>侵染循环</item>
+    </string-array>
+</resources>

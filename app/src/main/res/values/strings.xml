@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">病虫害图库</string>
+    <string name="include_name">包含关系</string>
+    <string name="confirm_name">精确程度</string>
+    <string name="keyword_name">关键字</string>
+</resources>

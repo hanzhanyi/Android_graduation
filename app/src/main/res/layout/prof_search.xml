@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="请输入搜索内容" />
+
+    <com.coolweather.android.source.RadioGroupEx
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/introduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="简介" />
+        <RadioButton
+            android:id="@+id/englishName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="英文名称" />
+        <RadioButton
+            android:id="@+id/damageSym"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="为害症状" />
+        <RadioButton
+            android:id="@+id/occurrenceFactor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发生因素" />
+        <RadioButton
+            android:id="@+id/morphology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="形态特征" />
+        <RadioButton
+            android:id="@+id/habits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生活习性" />
+        <RadioButton
+            android:id="@+id/handleMethod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="防治方法" />
+        <RadioButton
+            android:id="@+id/anotherName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="别名" />
+        <RadioButton
+            android:id="@+id/pathogen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="病原物" />
+        <RadioButton
+            android:id="@+id/cycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="侵染循环" />
+
+    </com.coolweather.android.source.RadioGroupEx>
+
+    <ListView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>

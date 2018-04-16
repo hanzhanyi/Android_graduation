@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data2">
+        <item>精确</item>
+        <item>模糊</item>
+    </string-array>
+</resources>
